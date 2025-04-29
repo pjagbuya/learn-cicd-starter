@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/pjagbuya/learn-cicd-starter/internal/auth" // Ensure your import path is correct
+	"github.com/bootdotdev/learn-cicd-starter/internal/auth" // Ensure your import path is correct
 )
 
 func TestGetAPIKey_MalformedAuthorizationHeader_TooManyParts(t *testing.T) {
